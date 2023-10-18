@@ -3,9 +3,9 @@ server:
 
 spring:
   application:
-    name: spotify-service
+    name: shaim-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/trello
+    url: jdbc:postgresql://localhost:5432/shaim
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver

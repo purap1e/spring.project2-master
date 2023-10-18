@@ -36,8 +36,7 @@ public class ItemServiceImpl implements ItemService {
 
     @Override
     public List<Item> getAllItems() {
-        return itemRepository.findAllXXX(3);
-//        return itemRepository.findAllByAmountGreaterThanAndOOrderByPriceAsc(3);
+        return itemRepository.findAll();
     }
 
     @Override
